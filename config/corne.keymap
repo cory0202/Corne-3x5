@@ -14,12 +14,12 @@
 
         combo1 {
             bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
+            key-positions = <9 10>;
         };
 
         combo2 {
             bindings = <&kp ENTER>;
-            key-positions = <21 20>;
+            key-positions = <21 22>;
         };
 
         combo3 {
@@ -34,12 +34,12 @@
 
         combo5 {
             bindings = <&kp EQUAL>;
-            key-positions = <8 19>;
+            key-positions = <8 9>;
         };
 
         combo6 {
             bindings = <&kp MINUS>;
-            key-positions = <31 20>;
+            key-positions = <8 7 8>;
         };
 
         combo7 {

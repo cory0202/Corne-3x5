@@ -14,17 +14,17 @@
 
         combo1 {
             bindings = <&kp BACKSPACE>;
-            key-positions = <10 9>;
+            key-positions = <9 8>;
         };
 
         combo2 {
             bindings = <&kp ENTER>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
         };
 
         combo3 {
-            bindings = <&none>;
-            key-positions = <15 16>;
+            bindings = <&kp COMMA>;
+            key-positions = <32 33>;
         };
 
         combo4 {
@@ -33,13 +33,13 @@
         };
 
         combo5 {
-            bindings = <&none>;
-            key-positions = <27 28>;
+            bindings = <&kp EQUAL>;
+            key-positions = <8 19>;
         };
 
         combo6 {
-            bindings = <&none>;
-            key-positions = <31 32>;
+            bindings = <&kp MINUS>;
+            key-positions = <31 20>;
         };
 
         combo7 {

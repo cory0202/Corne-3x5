@@ -39,7 +39,7 @@
 
         combo6 {
             bindings = <&kp MINUS>;
-            key-positions = <8 7 8>;
+            key-positions = <2 3>;
         };
 
         combo7 {

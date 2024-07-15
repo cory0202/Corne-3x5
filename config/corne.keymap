@@ -82,49 +82,46 @@
             bindings = <&mo 8>;
             key-positions = <37 38>;
         };
+    
+        combo1 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <9 10>;
+        };
 
-        combos {
-            compatible = "zmk,combos";
-    
-            combo1 {
-                bindings = <&kp BACKSPACE>;
-                key-positions = <9 10>;
-            };
-    
-            combo2 {
-                bindings = <&kp ENTER>;
-                key-positions = <21 22>;
-            };
-    
-            combo4 {
-                bindings = <&kp ESCAPE>;
-                key-positions = <1 2>;
-            };
-    
-            combo5 {
-                bindings = <&kp EQUAL>;
-                key-positions = <21 20>;
-            };
-    
-            combo6 {
-                bindings = <&kp MINUS>;
-                key-positions = <20 19>;
-            };
-    
-            cmb5 {
-                bindings = <&kp CAPS>;
-                key-positions = <13 14>;
-            };
-    
-            com6 {
-                bindings = <&bootloader>;
-                key-positions = <28 29>;
-            };
-    
-            bootloader_R {
-                bindings = <&bootloader>;
-                key-positions = <30 31>;
-            };
+        combo2 {
+            bindings = <&kp ENTER>;
+            key-positions = <21 22>;
+        };
+
+        combo4 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
+
+        combo5 {
+            bindings = <&kp EQUAL>;
+            key-positions = <21 20>;
+        };
+
+        combo6 {
+            bindings = <&kp MINUS>;
+            key-positions = <20 19>;
+        };
+
+        cmb5 {
+            bindings = <&kp CAPS>;
+            key-positions = <13 14>;
+        };
+
+        com6 {
+            bindings = <&bootloader>;
+            key-positions = <28 29>;
+        };
+
+        bootloader_R {
+            bindings = <&bootloader>;
+            key-positions = <30 31>;
+        };
     };
 
     keymap {

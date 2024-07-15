@@ -24,7 +24,7 @@
 
         combo4 {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 0>;
+            key-positions = <1 2>;
         };
 
         combo5 {

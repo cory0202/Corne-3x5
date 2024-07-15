@@ -137,18 +137,18 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q             &kp W        &kp E           &kp R           &kp T            &kp Y        &kp U            &kp I            &kp O        &kp P                      &none
-&none  &ht LEFT_SHIFT A  &ht LCTRL S  &ht LEFT_ALT D  &lt 4 F         &kp G            &kp H        &lt 5 J          &ht RIGHT_ALT K  &ht RCTRL L  &ht RIGHT_SHIFT SEMICOLON  &none
-&none  &lt 4 Z           &kp X        &kp C           &ht LEFT_GUI V  &kp B            &kp N        &ht RIGHT_GUI M  &kp COMMA        &kp DOT      &lt 4 SLASH                &none
+  &kp Q             &kp W        &kp E           &kp R           &kp T            &kp Y        &kp U            &kp I            &kp O        &kp P 
+  &ht LEFT_SHIFT A  &ht LCTRL S  &ht LEFT_ALT D  &lt 4 F         &kp G            &kp H        &lt 5 J          &ht RIGHT_ALT K  &ht RCTRL L  &ht RIGHT_SHIFT SEMICOLON  
+  &lt 4 Z           &kp X        &kp C           &ht LEFT_GUI V  &kp B            &kp N        &ht RIGHT_GUI M  &kp COMMA        &kp DOT      &lt 4 SLASH                
                                       &none           &lt 1 SPACE     &esc_tab_ctrl    &lt 3 ENTER  &lt 2 BACKSPACE  &none
             >;
         };
 
         Numbers {
             bindings = <
-&none  &trans  &kp SINGLE_QUOTE  &kp DELETE  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp TAB    &kp CAPS   &kp BSPC  &kp DOUBLE_QUOTES  &trans  &none
-&none  &kp N1  &kp N2            &kp N3      &kp N4          &kp N5             &kp N6     &kp N7     &kp N8    &kp N9             &kp N0  &none
-&none  &trans  &kp GRAVE         &kp LGUI    &kp SEMI        &kp LSHFT          &kp RSHFT  &kp APOS   &kp LGUI  &kp TILDE          &trans  &none
+  &trans  &kp SINGLE_QUOTE  &kp DELETE  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp TAB    &kp CAPS   &kp BSPC  &kp DOUBLE_QUOTES  &trans  
+  &kp N1  &kp N2            &kp N3      &kp N4          &kp N5             &kp N6     &kp N7     &kp N8    &kp N9             &kp N0  
+  &trans  &kp GRAVE         &kp LGUI    &kp SEMI        &kp LSHFT          &kp RSHFT  &kp APOS   &kp LGUI  &kp TILDE          &trans  
                                  &trans      &none           &trans             &kp RALT   &kp RCTRL  &trans
             >;
         };
@@ -163,9 +163,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH         &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp STAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none  &kp APOS         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT    &kp RBKT       &kp UNDER  &kp PLUS       &kp MINUS  &kp EQUAL             &kp DOUBLE_QUOTES      &none
-&none  &trans           &kp GRAVE       &kp BACKSLASH    &kp LGUI    &kp LSHFT      &kp RSHFT  &kp LGUI       &kp PIPE   &kp TILDE             &trans                 &none
+  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH         &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp STAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  
+  &kp APOS         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT    &kp RBKT       &kp UNDER  &kp PLUS       &kp MINUS  &kp EQUAL             &kp DOUBLE_QUOTES      
+  &trans           &kp GRAVE       &kp BACKSLASH    &kp LGUI    &kp LSHFT      &kp RSHFT  &kp LGUI       &kp PIPE   &kp TILDE             &trans                 
                                         &none            &kp LCTRL   &kp LALT       &trans     &none          &none
             >;
         };
@@ -180,54 +180,54 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp F8           &kp F7      &kp F6          &kp F5            &kp F10       &kp PAGE_UP           &kp HOME              &kp UP_ARROW       &kp END          &kp F12     &none
-&none  &kp F4           &kp F3      &kp F2          &kp F1            &kp F9        &kp PAGE_DOWN         &kp LEFT_ARROW        &kp DOWN           &kp RIGHT_ARROW  &kp F11     &none
-&none  &kp PRINTSCREEN  &kp C_STOP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  &none
+  &kp F8           &kp F7      &kp F6          &kp F5            &kp F10       &kp PAGE_UP           &kp HOME              &kp UP_ARROW       &kp END          &kp F12     
+  &kp F4           &kp F3      &kp F2          &kp F1            &kp F9        &kp PAGE_DOWN         &kp LEFT_ARROW        &kp DOWN           &kp RIGHT_ARROW  &kp F11     
+  &kp PRINTSCREEN  &kp C_STOP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  
                                     &none           &kp LCTRL         &kp LALT      &none                 &trans                &none
             >;
         };
 
         Accessaries {
             bindings = <
-&none  &kp LC(V)  &kp LC(X)                 &trans                &trans            &trans                 &kp TAB            &kp CAPS           &kp ESCAPE            &kp DEL                   &kp BACKSPACE  &none
-&none  &kp LC(C)  &kp LC(LS(LEFT_ALT))      &kp LC(LEFT_SHIFT)    &kp LC(LEFT_ALT)  &trans                 &trans             &kp RC(RIGHT_ALT)  &kp RC(RIGHT_SHIFT)   &kp RC(RS(RIGHT_ALT))     &kp ENTER      &none
-&none  &none      &kp LC(LS(LA(LEFT_GUI)))  &kp LC(LA(LEFT_GUI))  &kp LS(LEFT_ALT)  &double_click_tgame    &trans             &kp RS(RIGHT_ALT)  &kp RC(RA(LEFT_GUI))  &kp RC(RS(RA(LEFT_GUI)))  &none          &none
+  &kp LC(V)  &kp LC(X)                 &trans                &trans            &trans                 &kp TAB            &kp CAPS           &kp ESCAPE            &kp DEL                   &kp BACKSPACE  
+  &kp LC(C)  &kp LC(LS(LEFT_ALT))      &kp LC(LEFT_SHIFT)    &kp LC(LEFT_ALT)  &trans                 &trans             &kp RC(RIGHT_ALT)  &kp RC(RIGHT_SHIFT)   &kp RC(RS(RIGHT_ALT))     &kp ENTER      
+  &none      &kp LC(LS(LA(LEFT_GUI)))  &kp LC(LA(LEFT_GUI))  &kp LS(LEFT_ALT)  &double_click_tgame    &trans             &kp RS(RIGHT_ALT)  &kp RC(RA(LEFT_GUI))  &kp RC(RS(RA(LEFT_GUI)))  &none          
                                             &none                 &kp LS(LEFT_GUI)  &kp LA(LEFT_GUI)       &kp RA(RIGHT_GUI)  &kp RS(RIGHT_GUI)  &none
             >;
         };
 
         NUM_PAD {
             bindings = <
-&none  &kp STAR   &kp N7        &kp N8        &kp N9         &kp MINUS    &kp MINUS  &kp N7           &kp N8  &kp N9  &kp STAR   &none
-&none  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS     &kp PLUS   &kp NUMBER_1     &kp N2  &kp N3  &kp SLASH  &none
-&none  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp EQUAL    &kp EQUAL  &kp N4           &kp N5  &kp N6  &kp N0     &none
+  &kp STAR   &kp N7        &kp N8        &kp N9         &kp MINUS    &kp MINUS  &kp N7           &kp N8  &kp N9  &kp STAR   
+  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS     &kp PLUS   &kp NUMBER_1     &kp N2  &kp N3  &kp SLASH  
+  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp EQUAL    &kp EQUAL  &kp N4           &kp N5  &kp N6  &kp N0     
                                 &none         &kp BACKSPACE  &kp DOT      &kp LC(V)  &ht LC(X) LC(C)  &none
             >;
         };
 
         Game {
             bindings = <
-&trans  &kp TAB       &kp Q           &kp W    &kp E        &kp R        &trans               &trans  &trans  &trans  &trans  &trans
-&trans  &ht LSHIFT G  &kp A           &kp S    &kp D        &kp F        &trans               &trans  &trans  &trans  &trans  &trans
-&trans  &kp LCTRL     &ht LEFT_ALT Z  &kp X    &kp C        &kp V        &double_click_tgame  &trans  &trans  &trans  &trans  &trans
+  &kp TAB       &kp Q           &kp W    &kp E        &kp R        &trans               &trans  &trans  &trans  &trans  
+  &ht LSHIFT G  &kp A           &kp S    &kp D        &kp F        &trans               &trans  &trans  &trans  &trans  
+  &kp LCTRL     &ht LEFT_ALT Z  &kp X    &kp C        &kp V        &double_click_tgame  &trans  &trans  &trans  &trans  
                                       &kp ESC  &lt 7 ENTER  &kp SPACE    &trans               &trans  &trans
             >;
         };
 
         Game_num {
             bindings = <
-&trans  &kp N1       &kp N2      &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &ht LSHFT G  &kp A       &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LCTRL    &ht LALT Z  &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+  &kp N1       &kp N2      &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  
+  &ht LSHFT G  &kp A       &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  
+  &kp LCTRL    &ht LALT Z  &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  
                                  &trans  &none   &trans    &trans  &trans  &trans
             >;
         };
 
         KEYBOARD {
             bindings = <
-&none  &trans        &trans           &trans        &trans        &trans            &trans       &trans      &trans     &trans  &trans  &none
-&none  &out OUT_BLE  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR_ALL    &trans       &trans      &trans     &trans  &trans  &none
-&none  &out OUT_USB  &rgb_ug RGB_TOG  &soft_off     &sys_reset    &bootloader       &bootloader  &sys_reset  &soft_off  &trans  &trans  &none
+  &trans        &trans           &trans        &trans        &trans            &trans       &trans      &trans     &trans  &trans  
+  &out OUT_BLE  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR_ALL    &trans       &trans      &trans     &trans  &trans  
+  &out OUT_USB  &rgb_ug RGB_TOG  &soft_off     &sys_reset    &bootloader       &bootloader  &sys_reset  &soft_off  &trans  &trans  
                                       &none         &trans        &trans            &trans       &trans      &none
             >;
         };

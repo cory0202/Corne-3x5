@@ -140,7 +140,7 @@
   &kp Q             &kp W        &kp E           &kp R           &kp T            &kp Y        &kp U            &kp I            &kp O        &kp P
   &ht LEFT_SHIFT A  &ht LCTRL S  &ht LEFT_ALT D  &lt 4 F         &kp G            &kp H        &lt 5 J          &ht RIGHT_ALT K  &ht RCTRL L  &ht RIGHT_SHIFT SEMICOLON
   &lt 4 Z           &kp X        &kp C           &ht LEFT_GUI V  &kp B            &kp N        &ht RIGHT_GUI M  &kp COMMA        &kp DOT      &lt 4 SLASH
-                                 &none           &lt 1 SPACE     &esc_tab_ctrl    &lt 3 ENTER  &lt 2 BACKSPACE  &none
+                                 &mo 8           &lt 1 SPACE     &esc_tab_ctrl    &lt 3 ENTER  &lt 2 BACKSPACE  &mo 8
             >;
         };
 

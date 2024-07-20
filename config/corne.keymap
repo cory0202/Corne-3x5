@@ -73,12 +73,12 @@
     combos {
         compatible = "zmk,combos";
 
-        MO5_right {
+        MO8_right {
             bindings = <&mo 8>;
             key-positions = <40 39 31 32>;
         };
 
-        MO5_left {
+        MO8_left {
             bindings = <&mo 8>;
             key-positions = <37 38 33 34>;
         };
@@ -113,7 +113,7 @@
             key-positions = <11 10>;
         };
 
-        com6 {
+        bootloader_L {
             bindings = <&bootloader>;
             key-positions = <23 24>;
         };

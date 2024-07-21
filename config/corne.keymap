@@ -146,9 +146,9 @@
 
         Numbers {
             bindings = <
-  &trans  &kp SINGLE_QUOTE  &kp DELETE  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp TAB    &kp CAPS   &kp BSPC  &kp DOUBLE_QUOTES  &trans
-  &kp N1  &kp N2            &kp N3      &kp N4          &kp N5             &kp N6     &kp N7     &kp N8    &kp N9             &kp N0
-  &trans  &kp GRAVE         &kp LGUI    &kp SEMI        &kp LSHFT          &kp RSHFT  &kp APOS   &kp LGUI  &kp TILDE          &trans
+  &trans  &kp SINGLE_QUOTE  &kp DELETE  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp TAB    &kp CAPS   &kp BSPC   &kp DOUBLE_QUOTES  &trans
+  &kp N1  &kp N2            &kp N3      &kp N4          &kp N5             &kp N6     &kp N7     &kp N8     &kp N9             &kp N0
+  &trans  &trans            &kp GRAVE   &kp LWIN        &kp LSHFT          &kp RSHFT  &kp RWIN   &kp TILDE  &trans             &trans
                             &trans      &none           &trans             &kp RALT   &kp RCTRL  &trans
             >;
         };
@@ -180,10 +180,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp F8           &kp F7      &kp F6          &kp F5            &kp F10       &kp PAGE_UP           &kp HOME              &kp UP_ARROW       &kp END          &kp F12
-  &kp F4           &kp F3      &kp F2          &kp F1            &kp F9        &kp PAGE_DOWN         &kp LEFT_ARROW        &kp DOWN           &kp RIGHT_ARROW  &kp F11
-  &kp PRINTSCREEN  &kp C_STOP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE
-                               &none           &kp LCTRL         &kp LALT      &none                 &trans                &none
+  &kp F8           &kp F7      &kp F6          &kp F5            &kp F10         &kp PAGE_UP           &kp HOME              &kp UP_ARROW       &kp END          &kp F12
+  &kp F4           &kp F3      &kp F2          &kp F1            &kp F9          &kp PAGE_DOWN         &kp LEFT_ARROW        &kp DOWN           &kp RIGHT_ARROW  &kp F11
+  &kp PRINTSCREEN  &kp C_STOP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE
+                               &none           &kp LSHIFT        &kp LEFT_WIN    &none                 &trans                &none
             >;
         };
 

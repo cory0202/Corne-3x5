@@ -122,6 +122,11 @@
             bindings = <&bootloader>;
             key-positions = <25 26>;
         };
+
+        com_paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <22 23>;
+        };
     };
 
     keymap {

@@ -125,7 +125,7 @@
         };
 
         com_paste {
-            bindings = <&kp K_PASTE>;
+            bindings = <&kp C_AC_PASTE>;
             key-positions = <22 23>;
         };
     };

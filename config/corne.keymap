@@ -124,8 +124,8 @@
             key-positions = <25 26>;
         };
 
-        com_paste {
-            bindings = <&kp C_AC_PASTE>;
+        mac_paste {
+            bindings = <&kp LG(V)>;
             key-positions = <22 23>;
         };
     };

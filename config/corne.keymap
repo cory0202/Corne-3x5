@@ -73,17 +73,6 @@
     combos {
         compatible = "zmk,combos";
 
-        MO8_right {
-            bindings = <&mo 8>;
-            key-positions = <40 39 33 34>;
-            layers = <8>;
-        };
-
-        MO8_left {
-            bindings = <&mo 8>;
-            key-positions = <37 38 32 31>;
-        };
-
         combo1 {
             bindings = <&kp BACKSPACE>;
             key-positions = <9 8>;

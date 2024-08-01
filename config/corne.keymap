@@ -92,18 +92,6 @@
             layers = <0>;
         };
 
-        combo5 {
-            bindings = <&kp EQUAL>;
-            key-positions = <18 17>;
-            layers = <0>;
-        };
-
-        combo6 {
-            bindings = <&kp MINUS>;
-            key-positions = <17 16>;
-            layers = <0>;
-        };
-
         cmb5 {
             bindings = <&kp TAB>;
             key-positions = <11 10>;
@@ -147,19 +135,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &lt 8 Q  &kp W  &kp E   &kp R           &kp T                 &kp Y        &kp U            &kp I                &kp O                    &kp P
-  &kp A    &kp S  &kp D   &kp F           &kp G                 &kp H        &kp J            &kp K                &kp L                    &ht COLON SEMICOLON
-  &kp Z    &kp X  &kp C   &ht LEFT_GUI V  &kp B                 &kp N        &kp M            &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION SLASH
-                  &tog 3  &kp LCTRL       &mt LEFT_ALT ENTER    &lt 1 SPACE  &lt 2 BACKSPACE  &kp RIGHT_SHIFT
+  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T              &mt NUMBER_6 Y  &mt N7 U         &mt I N8             &mt N9 O                 &mt N0 P
+  &lt 8 A         &kp S           &kp D           &kp F           &kp G                 &kp H           &kp J            &kp K                &kp L                    &ht ENTER SINGLE_QUOTE
+  &kp Z           &kp X           &kp C           &ht LEFT_GUI V  &kp B                 &kp N           &kp M            &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION NON_US_BACKSLASH
+                                  &tog 3          &kp LCTRL       &mt LEFT_ALT SPACE    &lt 1 SPACE     &lt 2 BACKSPACE  &kp RIGHT_SHIFT
             >;
         };
 
         Numbers {
             bindings = <
-  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5                &kp F6        &kp F7         &kp F8           &kp F9                &kp F12
-  &kp EXCL      &kp AT_SIGN   &kp HASH        &kp DOLLAR        &kp PERCENT           &kp CARET     &kp AMPERSAND  &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4      &kp N5                &kp NUMBER_6  &kp N7         &kp N8           &kp N9                &kp N0
-                              &kp LEFT_SHIFT  &kp LEFT_CONTROL  &mt LEFT_ALT ENTER    &kp SPACE     &kp BACKSPACE  &kp RIGHT_SHIFT
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4      &kp N5                &kp NUMBER_6  &kp N7         &kp N8                 &kp N9                &kp N0
+  &kp EXCL      &kp AT_SIGN   &kp HASH        &kp DOLLAR        &kp PERCENT           &kp CARET     &kp AMPERSAND  &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5                &kp F6        &kp F7         &kp F8                 &kp F9                &kp F12
+                              &kp LEFT_SHIFT  &kp LEFT_CONTROL  &mt LEFT_ALT SPACE    &kp SPACE     &kp BACKSPACE  &mt ENTER RIGHT_SHIFT
             >;
         };
 
@@ -173,10 +161,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE              &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp TILDE  &kp GRAVE
-  &kp UNDER       &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_CLR_ALL        &trans         &trans             &trans            &trans     &trans
-  &trans          &trans           &trans            &trans             &trans                &trans         &trans             &trans            &trans     &trans
-                                   &kp LEFT_SHIFT    &kp LEFT_CONTROL   &mt LEFT_ALT ENTER    &kp SPACE      &kp BACKSPACE      &kp RIGHT_SHIFT
+  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE  &kp NON_US_BACKSLASH  &trans                &trans     &trans         &trans                 &trans  &trans
+  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE       &kp PIPE              &trans                &trans     &trans         &trans                 &trans  &trans
+  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE       &trans                &trans                &trans     &trans         &trans                 &trans  &trans
+                                               &kp LEFT_SHIFT  &kp LEFT_CONTROL      &mt LEFT_ALT SPACE    &kp SPACE  &kp BACKSPACE  &mt ENTER RIGHT_SHIFT
             >;
         };
 
@@ -190,10 +178,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp HOME          &kp END               &kp N7        &kp N8         &kp N9        &kp N0        &kp DOT
-  &kp LEFT     &kp DOWN      &kp RIGHT      &mkp LCLK         &mkp RCLK             &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp PLUS      &kp MINUS
-  &kp Z        &kp X         &kp C          &kp V             &kp LEFT_SHIFT        &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp ASTERISK  &kp SLASH
-                             &mo 3          &kp LEFT_CONTROL  &mt LEFT_ALT ENTER    &kp SPACE     &kp BACKSPACE  &kp EQUAL
+  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp HOME          &kp END               &kp N7        &kp N8        &kp N9         &kp EQUAL     &kp BACKSPACE
+  &kp LEFT     &kp DOWN      &kp RIGHT      &mkp LCLK         &mkp RCLK             &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS      &kp MINUS
+  &kp Z        &kp X         &kp C          &kp V             &kp LEFT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp ASTERISK  &kp SLASH
+                             &mo 3          &kp LEFT_CONTROL  &mt LEFT_ALT SPACE    &kp SPACE     &kp N0        &mt ENTER DOT
             >;
         };
 

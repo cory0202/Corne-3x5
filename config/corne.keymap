@@ -154,7 +154,7 @@
   &kp F1        &kp F2        &kp F3        &kp F4        &kp F5         &kp F6        &kp F7         &kp F8        &kp F9                &kp F12
   &kp EXCL      &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp N7         &kp N8        &kp N9                &kp N0
-                              &kp UP_ARROW  &kp DOWN      &trans         &trans        &kp LEFT       &kp RIGHT
+                              &kp UP_ARROW  &kp DOWN      &kp ENTER      &kp SPACE     &kp LEFT       &kp RIGHT
             >;
         };
 
@@ -171,7 +171,7 @@
   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE          &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp TILDE  &kp GRAVE
   &kp UNDER       &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_CLR_ALL    &trans         &trans             &trans            &trans     &trans
   &trans          &trans           &trans            &trans             &trans            &trans         &trans             &trans            &trans     &trans
-                                   &none             &trans             &trans            &trans         &none              &none
+                                   &none             &trans             &kp ENTER         &kp SPACE      &none              &none
             >;
         };
 
@@ -185,10 +185,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &trans     &trans       &kp N7        &kp N8        &kp N9        &kp SLASH     &kp PLUS
-  &kp LEFT     &trans        &kp RIGHT      &trans     &trans       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp EQUAL
-  &kp HOME     &kp DOWN      &kp END        &trans     &trans       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &kp BACKSPACE
-                             &none          &mkp LCLK  &mkp RCLK    &kp N0        &kp DOT       &kp ENTER
+  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN   &kp HOME         &kp END           &kp N7        &kp N8        &kp N9        &kp SLASH     &kp PLUS
+  &kp LEFT     &kp DOWN      &kp RIGHT       &trans           &trans            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp EQUAL
+  &kp LC(Z)    &kp K_CUT     &kp LC(K_COPY)  &kp LC(K_PASTE)  &kp LEFT_SHIFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &kp BACKSPACE
+                             &mo 3           &mkp LCLK        &kp ENTER         &kp SPACE     &kp N0        &kp DOT
             >;
         };
 

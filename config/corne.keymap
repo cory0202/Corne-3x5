@@ -135,9 +135,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T              &mt NUMBER_6 Y  &mt N7 U         &mt I N8             &mt N9 O                 &mt N0 P
+  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T              &mt NUMBER_6 Y  &mt N7 U         &mt N8 I             &mt N9 O                 &mt N0 P
   &lt 8 A         &kp S           &kp D           &kp F           &kp G                 &kp H           &kp J            &kp K                &kp L                    &ht ENTER SINGLE_QUOTE
-  &kp Z           &kp X           &kp C           &ht LEFT_GUI V  &kp B                 &kp N           &kp M            &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION NON_US_BACKSLASH
+  &kp Z           &kp X           &kp C           &ht LEFT_GUI V  &kp B                 &kp N           &kp M            &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION BSLH
                                   &tog 3          &kp LCTRL       &mt LEFT_ALT SPACE    &lt 1 SPACE     &lt 2 BACKSPACE  &kp RIGHT_SHIFT
             >;
         };
